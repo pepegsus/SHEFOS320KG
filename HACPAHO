@@ -1,0 +1,9 @@
+export based="$(pwd)"
+export kernelsrcd="$based/kernelshit1337/linux/"
+export fsd="$based/kernelshit1337/fs/"
+export scriptsd="$based/scripts"
+export cfgd="$based/cfg"
+export bind="$based/kernelshit1337/bin"
+export ksd="$based/kernelshit1337"
+
+echo $based

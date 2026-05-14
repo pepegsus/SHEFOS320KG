@@ -1,15 +1,16 @@
 #!/bin/sh
-export hugedick="$(pwd)"
-
-mkdir kernelshit1337
-cd kernelshit1337
+cd ..
+echo "$(cat ./HACPAHO)
+cd \$ksdi
 
 git clone https://github.com/torvalds/linux --depth 1
 
 cd linux
 git pull
-cp $hugedick/cfg/kernel/.config .
+cp \$cfgd/kernel/.config .
 
 echo "skachack gta5$(nproc)"
 sleep 2
 make -j$(nproc)
+
+" | sh
