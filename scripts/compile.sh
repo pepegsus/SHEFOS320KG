@@ -12,4 +12,4 @@ gcc zshell/main.c -static -o \$bind/static/zshell &
 
 ldd bin/*
 ldd bin/static/*
-"
+" | sh
